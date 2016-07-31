@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+	
+    <TextView 
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/app_name"
+        android:textColor="@color/orange"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+        
+        <LinearLayout 
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+        	android:layout_weight="50"
+	        android:orientation="vertical">
+        
+	        <Button
+		        android:id="@+id/butFBShare"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/fb_logo"
+		        android:text=""/>
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:layout_margin="5dp"
+		        android:text="@string/fb_share"
+		        android:textColor="@color/orange"
+		        android:textStyle="bold"
+		        android:textSize="12sp"/>
+        
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+        	android:layout_weight="50"
+            android:orientation="vertical" >
+        
+	        <Button
+		        android:id="@+id/butTWShare"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/tw_logo"
+		        android:text=""/>
+	        
+	        <TextView 
+	            android:id="@+id/tvTwShare"
+	            android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:layout_margin="5dp"
+		        android:text="@string/tw_share"
+		        android:textColor="@color/orange"
+		        android:textStyle="bold"
+		        android:textSize="12sp"/>
+	        
+	        <TextView android:id="@+id/tvUserName"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="10dip"
+		        android:textColor="@color/orange"
+		        android:visibility="gone"/>
+	        
+	        <TextView android:id="@+id/tvUpdate"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dip"
+		        android:layout_marginRight="10dip"
+		        android:textColor="@color/orange"
+		        android:text="@string/update_status"
+		        android:visibility="gone"/>
+	        
+	        <EditText android:id="@+id/etUpdateStatus"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="10dip"
+		        android:background="@color/white"
+		        android:textColor="@color/black"
+		        android:text="@string/promo_tweet"
+		        android:visibility="gone"/>
+	        
+	        <Button android:id="@+id/btnUpdateStatus"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dip"
+		        android:layout_marginRight="10dip"
+		        android:text="@string/tweet"
+		        android:visibility="gone"
+		        style="@style/ToolbarButton"/>
+	        
+	        <Button android:id="@+id/btnLogoutTwitter"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Logout from Twitter"
+		        android:padding="10dip"
+		        android:layout_marginTop="10dip"
+		        android:layout_marginLeft="10dip"
+		        android:layout_marginRight="10dip"
+		        android:visibility="gone"
+		        style="@style/ToolbarButton"/>
+        
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+    
+    
+</LinearLayout>

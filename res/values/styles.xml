@@ -1,0 +1,25 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+    	<item name="android:windowFullscreen">true</item>
+    </style>
+    
+    <style name="Toolbar">
+        <item name="android:background">#33ffffff</item>
+        <item name="android:padding">6.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ToolbarButton">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:padding">0.0dip</item>
+    </style>
+
+</resources>

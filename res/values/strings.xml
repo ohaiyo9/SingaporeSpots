@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Singapore Spots</string>
+    <string name="poi">POI</string>
+    <string name="food">Food</string>
+    <string name="cafe">Cafe</string>
+    <string name="atm">ATM</string>
+    <string name="bank">Bank</string>
+    <string name="ar">AR</string>
+    <string name="more">More</string>
+    <string name="km">KM</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="phone">Call</string>
+    <string name="website">Website</string>
+    <string name="opening">Open Hours</string>
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string name="app_id">431928230266754</string>
+    <string name="tw_key">gWxUeuwGw72tP6WAWGyvw</string>
+    <string name="tw_secret">DNXlzQowuLxZsHR8efdDtaDUjY46ktiImiwVTqSaB0</string>
+    <string name="fb_share">Share in Facebook</string>
+    <string name="tw_share">Share in Twitter</string>
+    <string name="update_status">Update Status</string>
+    <string name="promo_tweet">I am using Singapore Spots app for Android, download from: http://goo.gl/vjjAFa</string>
+    <string name="tweet">Tweet</string>
+    <string name="login_error">An error occurred during login. Please try again.</string>
+
+</resources>

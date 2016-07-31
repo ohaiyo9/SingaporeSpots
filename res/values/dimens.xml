@@ -1,0 +1,16 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="actionbar_height">45.0dip</dimen>
+    <dimen name="actionbar_item_height">45.0dip</dimen>
+    <dimen name="actionbar_item_width">45.0dip</dimen>
+    <dimen name="actionbar_home_width">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="menu_text_size">18sp</dimen>
+    <dimen name="desc_text_size">14sp</dimen>
+    <dimen name="bar_width">60dp</dimen>
+    <dimen name="btn_width">48dp</dimen>
+
+</resources>

@@ -1,0 +1,170 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/title_bar" >
+
+            <TextView
+                android:id="@+id/detailTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="10dp"
+                android:text="@string/name"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/white_rounded" >
+
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/marker_orange"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/detailName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imgLogo"
+                android:inputType="none"
+                android:padding="10dp"
+                android:text="@string/name"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/detailType"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/detailName"
+                android:layout_toRightOf="@+id/imgLogo"
+                android:inputType="none"
+                android:padding="10dp"
+                android:text="@string/food"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/detailAddress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/detailType"
+                android:layout_toRightOf="@+id/imgLogo"
+                android:inputType="none"
+                android:padding="10dp"
+                android:text="@string/address"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textOpening"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/detailAddress"
+                android:inputType="none"
+                android:padding="10dp"
+                android:text="@string/opening"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/detailOpening"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/detailAddress"
+                android:layout_toRightOf="@+id/textOpening"
+                android:inputType="none"
+                android:padding="10dp"
+                android:text="@string/opening"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/white_rounded" >
+            
+            <org.osmdroid.views.MapView
+		        android:id="@+id/mapPreview"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_alignParentTop="true"
+		        android:layout_alignParentLeft="true"
+		        android:clickable="false" />
+            
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/white_rounded" >
+
+            <TextView
+                android:id="@+id/tvPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:padding="10dp"
+                android:text="@string/phone"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/detailPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/tvPhone"
+                android:padding="10dp"
+                android:text="@string/phone"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/white_rounded" >
+
+            <TextView
+                android:id="@+id/tvWeb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:padding="10dp"
+                android:text="@string/website"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/detailWeb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/tvWeb"
+                android:padding="10dp"
+                android:text="@string/website"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
